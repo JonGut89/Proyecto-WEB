@@ -1,0 +1,312 @@
+*{
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+}
+
+/* Uso de centrado*/
+
+
+body{
+        text-align: center;
+        font-family: sans-serif;
+}
+
+.head{
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       height: 63px;
+       background: rgb(45, 41, 39);
+       position: fixed;
+       width: 100%;
+       z-index: 100;
+}
+
+.navbar{
+       display: flex;
+       margin-right: 15px;
+}
+
+button{
+       margin-left: 20px;
+       font-size: 40px;
+       padding: 3px;
+       border-radius: 20px;
+       border: none;
+       color:rgb(45, 41, 39);
+       background: white;
+       transition: .3s ease all;
+       cursor: pointer;
+
+}
+
+.logo{
+       background:rgb(45, 41, 39);
+       display: flex;
+       justify-content: center;
+       align-items: center;       
+       padding: 15px;
+}
+
+.logo a {
+       text-decoration: none;
+       color: #ffff;
+       font-size: 1.5rem;
+       font-family: 'Berkshire Swash', cursive;
+       text-shadow:  1px 1px 0 rgb(217, 15, 235),
+                     1px 2px 0 rgb(217, 15, 235),
+                     1px 3px 0 rgb(217, 15, 235),
+                     1px 4px 0 rgb(217, 15, 235),
+                     1px 5px 0 rgb(217, 15, 235),
+                     1px 6px 0 rgb(217, 15, 235),
+                     1px 7px 0 rgb(217, 15, 235),
+                     1px 8px 0 rgb(217, 15, 235),
+                     1px 9px 0 rgb(217, 15, 235),
+                     1px 10px 0 rgb(217, 15, 235),
+                     1px 11px 0 rgb(217, 15, 235),
+                     1px 12px 0 rgb(217, 15, 235),
+                     1px 13px 0 rgb(217, 15, 235),
+                     1px 14px 0 rgb(217, 15, 235),
+                     1px 15px 0 rgb(217, 15, 235),
+                     1px 15px 30px rgb(28, 28, 28);
+}
+
+.navbar a{
+       display: block;
+       padding: 20px 20px;
+       color:#fff;
+       text-decoration: none;
+       text-transform: uppercase;
+       font-size: 20px;
+}
+
+.navbar a:hover {
+       background: #9c27b0;
+       color: yellow;
+}
+
+.header {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+}
+
+.header {
+       height: 60vh !important;
+       background: url(images/Cenotafios_de_Orchha.png) no-repeat center;
+       background-size: cover;
+}
+
+.header p {
+       color: #fff;
+}
+
+
+.title {
+       margin-bottom: 40px;
+       font-size: 60px;
+       font-weight: 600;
+       text-transform: uppercase;
+       color: rgb(217, 15, 235);
+}
+
+p {
+       margin-bottom: 40px;
+       font-size: 20px;
+       color: #ffff;
+       padding: 0 100px;
+       letter-spacing: 3px;
+}
+
+.content p{
+       text-align: justify;
+       text-indent: 5%;
+}
+
+.btn{
+       display: inline-block;
+       margin-top: 15px;
+       padding: 10px 40px;
+       border: 3px solid rgb(145, 119, 232);
+       color: #fff;
+       text-decoration: none;
+}
+
+.btn:hover {
+       background: #9c27b0;
+}
+
+.btn-home {
+       display: flex;
+}
+
+.btn-home a {
+       margin: 0 50px;
+}      
+
+.content {
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;       
+}
+
+.sau{
+       padding: 30px;
+       background: #1f1d1d;
+}
+
+.box-container {
+       display: flex;
+       justify-content: center;
+       flex-wrap: wrap;
+       text-align: center;
+}
+
+.box-container .box {
+       height: 12rem;
+       width: 15rem;
+       background-color: #101010;
+       text-align: center;
+       border-radius: 1rem;
+       box-shadow: 0 .3rem 5rem rgba(0,0,0,.5);
+       margin: 4rem;
+}
+
+.box-container .box i { 
+       height: 4rem;
+       width: 4rem;
+       line-height: 4rem;
+       text-align: center;
+       border-radius: 50%;
+       color: #fff;
+       background: #27b069;
+       font-size: 2rem;
+       margin: 1rem 0;
+ }
+
+.box-container .box h3 {
+       font-size: 20px;
+       color: #9c27b0;
+}
+
+.box-container .box p {
+       padding: 0 15px;
+       font-size: 16px;
+       margin: 2rem;
+       text-align: center;
+ }
+
+.about{
+       background: #171717;
+}
+
+.price {
+       background: url(images/KATHMANDÚ.png) no-repeat center;
+       background-attachment: fixed;
+       background-size: cover;
+       text-align: center;           
+}
+
+.contact {
+       padding-top: 20px;
+       background: #171717;
+       padding-bottom: 20px;
+}
+.contact p {
+       text-align: center;
+
+}
+
+.container-video {
+       height: 50vh;
+       display: flex;
+       flex-direction:row-reverse;
+       align-items: center;
+       padding: 20px;       
+       background: url(images/Taj-mahal.jpg)no-repeat center;       
+       background-size: cover;
+}
+
+.descripcion h2 {
+       margin-bottom: 5rem;
+}
+
+.descripcion {       
+       font-style: italic;
+       font-size: 15px;
+}
+
+.descripcion p {
+       text-align: justify;
+       color: #fff;       
+       text-indent: 5%;
+       line-height: 2rem;
+       letter-spacing: 3px;
+       font-size: 20px;
+       margin-bottom: 10rem;       
+}
+
+footer{
+       background: #1f1d1d;
+       
+}
+footer a {
+       
+       font-size: 25px;
+       color: #fff;
+       margin: 10px;
+       
+}
+footer i {
+       padding: 15px;
+       
+}
+
+
+@media (max-width: 768px) {
+
+       .head{
+              height: auto;
+              display: flex;
+              flex-direction: column;
+              align-self: auto;
+       }
+       .logo{
+              height: 5%;
+              width: 1rem;
+              
+       }
+       .navbar{
+              flex-direction: column;
+              align-items: center;
+              
+       }
+
+       .price{
+              overflow: hidden;
+       }
+
+       .title {
+              font-size: calc(10vh-2rem);
+              font-size: 20px;
+       }
+       
+       .sau {
+              height: 100vh;
+       }
+
+
+       .descripcion{
+              height: 100vh;
+              overflow: hidden;
+       }
+
+       .price{
+              height: 20%;
+       }
+}
